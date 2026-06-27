@@ -2,6 +2,7 @@ const accountId = 225533
 let accountEmail ="AvadhutPawar25@gmail.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
+let accountState;
 
 // accountId = 1 // Not Allowed
 
@@ -9,6 +10,6 @@ accountEmail = 'A@gmail.com'
 accountPassword = "123456788"
 accountCity = 'Nashik'
 
-console.log(accountId);
+// console.log(accountId);
 
-console.table([accountId,accountEmail,accountPassword,accountCity]);
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
